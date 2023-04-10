@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Is a file that contains the environment variables that are common to all the services.
+# It is used by docker-compose to set the environment variables for all the services.
+common.env 
+
+*.ipynb_checkpoints
+.devcontainer
