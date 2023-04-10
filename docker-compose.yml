@@ -37,6 +37,9 @@ services:
       - db
     # Cargar file con variables de ambiente
     env_file: common.env  
+    environment:
+      - GIT_EMAIL=${GIT_EMAIL}
+      - GIT_NAME=${GIT_NAME}
     # "no": nunca, "always":siempre, "on-failure":lo reinicia si el contenedor devuelve un estado de error,
     # "unless-stopped": lo reinicia en todos los casos excepto cuando se detiene
     restart: "on-failure"  
