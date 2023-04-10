@@ -134,3 +134,4 @@ common.env
 
 *.ipynb_checkpoints
 .devcontainer
+!.devcontainer/devcontainer_sample.json
