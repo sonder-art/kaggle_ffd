@@ -36,13 +36,6 @@ FROM base as dev
 
 RUN apt-get -y update
 RUN apt-get -y install git
-ARG GIT_NAME
-ENV GIT_NAME=${GIT_NAME}
-ARG GIT_EMAIL
-ENV GIT_EMAIL=${GIT_EMAIL}
-RUN git config --global user.name "${GIT_NAME}"
-RUN git config --global user.email "${GIT_EMAIL}"
-
 COPY dev_environment.yml /app/dev_environment.yml
 RUN conda env update --name base --file /app/dev_environment.yml
 # No es necesario copiar, pues el dev usa un volumn montado ../app:/app
