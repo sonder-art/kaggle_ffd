@@ -33,7 +33,7 @@
 			]
 		}
 	},
-	"postCreateCommand":" git config --global user.name uumami && git config --global user.email vazcorm@gmail.com"
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -47,7 +47,7 @@
 	// "shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created.
-	// "postCreateCommand": "cat /etc/os-release",
+	"postCreateCommand":" git config --global user.name uumami && git config --global user.email vazcorm@gmail.com",
 
 	// Configure tool-specific properties.
 	// "customizations": {},

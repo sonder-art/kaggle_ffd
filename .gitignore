@@ -134,4 +134,8 @@ common.env
 
 *.ipynb_checkpoints
 # .devcontainer
+<<<<<<< Updated upstream
 # !.devcontainer/devcontainer.json
+=======
+# !.devcontainer/devcontainer_sample.json
+>>>>>>> Stashed changes
