@@ -1,5 +1,7 @@
 # Funciones para explorar las tablas existentes y su composicion
-
+'''
+Revisen https://github.com/sonder-art/fdd_prim_2023/blob/main/codigo/docker_compose/app/sql_tutorial.ipynb
+'''
 from .s06_sql_utils_connect import *
 
 def print_rows(table_name:str, n:int=5):
