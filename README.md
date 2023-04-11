@@ -11,7 +11,8 @@
 # Explicacion del codigo
 
 # common.env o contrasennas
-Las contrasennas se pasaran por keybase.
+Las contrasennas se pasaran por keybase.  
+No olvides cambiar el sample_env.env a common.env
 
 # Ejecucion
 **Comando para ejecutar el proyecto**  

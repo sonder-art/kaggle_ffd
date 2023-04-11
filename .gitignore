@@ -133,5 +133,5 @@ dmypy.json
 common.env 
 
 *.ipynb_checkpoints
-.devcontainer
-!.devcontainer/devcontainer_sample.json
+# .devcontainer
+# !.devcontainer/devcontainer.json
